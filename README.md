@@ -112,11 +112,11 @@ The data is stored in a JSON file. Each entry in the JSON file contains the foll
 
 The API endpoint for obtaining the weather observation information of the nearest observation station is as follows:
 
-### Endpoint
-https://{{host}}:{{port}}/allareas
-https://{{host}}:{{port}}/get_data_by_zip_code/{{zip_code}}
-https://{{host}}:{{port}}/get_geo_103_by_zip_code/{{zip_code}}
-https://{{host}}:{{port}}/get_data_by_latlng/{{latitude}}/{{longitude}}
+### URI
+* https://{{host}}:{{port}}/allareas
+* https://{{host}}:{{port}}/get_data_by_zip_code/{{zip_code}}
+* https://{{host}}:{{port}}/get_geo_103_by_zip_code/{{zip_code}}
+* https://{{host}}:{{port}}/get_data_by_latlng/{{latitude}}/{{longitude}}
 
 ### Request Method
 GET
