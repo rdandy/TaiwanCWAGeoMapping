@@ -1,0 +1,5 @@
+requests
+lxml
+xmltodict
+xlrd
+openpyxl
