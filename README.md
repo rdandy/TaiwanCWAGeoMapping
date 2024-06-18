@@ -108,15 +108,28 @@ The data is stored in a JSON file. Each entry in the JSON file contains the foll
 
 ## Update test case
 
-## API Endpoint
+----
 
-The API endpoint for obtaining the weather observation information of the nearest observation station is as follows:
+## API Endpoints
 
-### URI
+Hope to continue to implement the following api
+
+### URIs
 * https://{{host}}:{{port}}/allareas
+
+    List all administrative areas
+
 * https://{{host}}:{{port}}/get_data_by_zip_code/{{zip_code}}
+
+    Obtain administrative area information by postal code
+
 * https://{{host}}:{{port}}/get_geo_103_by_zip_code/{{zip_code}}
+
+    Get GEO_103 encoding data by zip code
+
 * https://{{host}}:{{port}}/get_data_by_latlng/{{latitude}}/{{longitude}}
+
+    Get the nearest administrative area data by latitude and longitude
 
 ### Request Method
 GET
@@ -178,3 +191,9 @@ The response will return a JSON object
   - `city_name_en` (string): English name of the city.
   - `longitude` (string): The longitude of the center area.
   - `latitude` (string): The latitude of the center area.
+
+----
+
+## Module that can be used by direct internal calls
+
+### CwaCAP
